@@ -16,3 +16,6 @@ before_install:
 - sudo service postgresql restart
 - sleep 1
 - postgres --version
+
+script: true
+
